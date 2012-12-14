@@ -8,7 +8,7 @@ Build-Depends-Indep: perl (>= 5.10.1) | libtest-simple-perl (>= 0.88),
  libtest-timer-perl
 Standards-Version: 3.9.2
 Section: libs
-Homepage: http://search.cpan.org/~jjschutz/Log-Dispatch-Scribe-0.05/
+Homepage: http://search.cpan.org/~jjschutz/Log-Dispatch-Scribe
 
 Package: liblog-dispatch-scribe-perl
 Section: perl
