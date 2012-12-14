@@ -1,0 +1,5 @@
+liblog-dispatch-scribe-perl (0.05-0~gasol1) unstable; urgency=low
+
+  * Initial release
+
+ -- Gasol Wu <gasol.wu@gmail.com>  Fri, 14 Dec 2012 11:47:28 +0800
