@@ -1,0 +1,21 @@
+Source: liblog-dispatch-scribe-perl
+Priority: extra
+Maintainer: Gasol Wu <gasol.wu@gmail.com>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.2
+Section: libs
+Homepage: http://search.cpan.org/~jjschutz/Log-Dispatch-Scribe-0.05/
+
+Package: liblog-dispatch-scribe-perl
+Section: perl
+Architecture: any
+Depends: ${perl:Depends}, ${misc:Depends}
+Description: Logging via Facebook's Scribe server software
+ This module provides a Log::Dispatch style interface to Scribe,
+ and is also fully compatible with Log::Log4perl.
+ .
+ Scribe is a server for aggregating log data streamed in real time
+ from a large number of servers. It is designed to be scalable,
+ extensible without client-side modification, and robust to failure
+ of the network or any specific machine. Scribe was developed at
+ Facebook and released as open source.
