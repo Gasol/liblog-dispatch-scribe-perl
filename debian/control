@@ -1,7 +1,11 @@
 Source: liblog-dispatch-scribe-perl
 Priority: extra
 Maintainer: Gasol Wu <gasol.wu@gmail.com>
-Build-Depends: debhelper (>= 8.0.0)
+Build-Depends: debhelper (>= 8.0.0),
+Build-Depends-Indep: perl (>= 5.10.1) | libtest-simple-perl (>= 0.88),
+ liblog-dispatch-perl,
+ libtest-mockobject-perl,
+ libtest-timer-perl
 Standards-Version: 3.9.2
 Section: libs
 Homepage: http://search.cpan.org/~jjschutz/Log-Dispatch-Scribe-0.05/
