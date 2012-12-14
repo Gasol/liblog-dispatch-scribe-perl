@@ -1,0 +1,4 @@
+version=3
+
+http://search.cpan.org/dist/Log-Dispatch-Scribe .+/Log-Dispatch-Scribe-?(\d[\d.-]+)\.(?:tar(?:\.gz|\.bz2)?|tgz|zip)$
+
